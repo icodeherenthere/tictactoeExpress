@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>21 Savage Fans</title>
+  <link rel="shortcut icon" href="o.jpeg">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <section class="howToPlay">
+    <h3>Directions:</h3>
+      <p>It's simple you and a friend are playing Tic Tac Toe. A game that has been around for centuries and played between friends and sometimes enemies. You will decide who goes first by playing Rock, Paper, Scissors. The winner gets X as a character. The loser gets O. To win the game you will each take turns and first person to get 3 in a row, wins!!!</p>
+  </section>
+  <section class="ticAndToeing">
+    <table>
+      <tbody class = "board">
+        <tr>
+          <td class="squares" id="0"></td>
+          <td class="squares" id="1"></td>
+          <td class="squares" id="2"></td>
+        </tr>
+        <tr>
+          <td class="squares" id="3"></td>
+          <td class="squares" id="4"></td>
+          <td class="squares" id="5"></td>
+        </tr>
+        <tr>
+          <td class="squares" id="6"></td>
+          <td class="squares" id="7"></td>
+          <td class="squares" id="8"></td>
+        </tr>
+      </tbody>
+    </table>
+      <h2>Scoreboard</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td id="xResult">
+              <%=xResult%>
+              <th>X Wins</th>
+            </td>
+            <td id="oResult">
+              <%=oResult%>
+              <th>O Wins</th>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="index.html"><button>Reset Board</button></a>
+	</section>
+  <script src="main.js"></script>
+</body>
+</html>
